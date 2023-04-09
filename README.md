@@ -1,2 +1,3 @@
 # Sample-Landing-Page
-The sample landing PAGE.
+
+This project help me to achieve sample and beautiful my first single web page.
