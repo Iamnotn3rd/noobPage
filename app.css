@@ -28,14 +28,15 @@ header {
 }
 
 .navbar .logo p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .navbar .navlink {
     width: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .navbar .navlink li {
@@ -69,47 +70,49 @@ header {
 .hero-content h1 {
     font-size: 3rem;
     font-family: 'Space Mono', monospace;
-    line-height: 50px;
+    line-height: 60px;
 }
 
 .hero-content p {
     font-size: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 8px;
 }
 
 .hero-content button {
+    font-size: 1.2rem;
     width: 150px;
     border: none;
     border-radius: 10px;
     padding: 16px 24px;
     background-color: #3882f6;
+    letter-spacing: 1px;
 }
 
-.hero-section .hero-image {
+.hero-image img{
     width: 700px;
     height: 400px;
-    background-color: gainsboro;
-    border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
+    clip-path: polygon(9% 0, 100% 3%, 96% 100%, 0 84%);
 }
 
-.random-info {
+.service-section {
     background-color: whitesmoke;
-    height: 600px;
+    height: 560px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.random-info h2 {
+.service-section h2 {
     text-align: center;
     font-size: 36px;
     color: #1f2937;
-    /* font-family: 'Space Mono', monospace; */
 }
 
-.random-card {
+.cards {
     /* border: 2px solid maroon; */
     width: 80%;
     height: 350px;
@@ -118,15 +121,15 @@ header {
     justify-content: space-around;
 }
 
-.random-card .card {
+.cards .card {
     width: 250px;
     /* background-color: olive; */
 }
 
-.card .img {
+.card img {
+    display: block;
     width: 200px;
     height: 200px;
-    background-color: gray;
     margin: 0 auto;
     border: 2px solid #1f2937;
     border-radius: 10px;
