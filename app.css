@@ -188,7 +188,7 @@ figure figcaption {
 .cta-section .cta {
     width: 70%;
     height: 7em;
-    background-color: #3882f6;
+    background: linear-gradient(to right, #141e30, #243b55);
     color: whitesmoke;
     border-radius: 8px;
     display: flex;
