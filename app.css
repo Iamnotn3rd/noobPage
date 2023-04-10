@@ -22,13 +22,23 @@ header {
 }
 
 .navbar .logo {
-    width: 200px;
+    min-width: 240px;
     text-align: center;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar .logo svg {
+    width: 40px;
+    color: #B8621B;
 }
 
 .navbar .logo p {
     font-size: 2rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
 }
 
 .navbar .navlink {
